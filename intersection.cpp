@@ -22,8 +22,11 @@ int main() {
         v2.push_back(el);
     }
 
-    sort(v1.begin(), v1.begin() + len1);
-    sort(v2.begin(), v2.begin() + len2);
+//    sort(v1.begin(), v1.begin() + len1);
+//    sort(v2.begin(), v2.begin() + len2);
+    
+    sort(v1.begin(), v1.end());
+    sort(v2.begin(), v2.end());
 
     vector<int> res;
     int i = 0, j = 0;
